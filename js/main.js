@@ -5,7 +5,7 @@ let body = document.querySelector("body")
 dataCrew.forEach(val => {
     plantilla+= `
     <div>
-        <img src="${val.image.replace("https://i.imgur.com/","https://imgur.com")}">
+        <img src="${val.image}"referrerpolicy="no-referrer">
         <p>${val.name}</p>
-    </div>    
+    </div>` 
 })
